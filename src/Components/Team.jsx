@@ -1,22 +1,19 @@
 import React from 'react';
 import TeamMember from './TeamMember';
 
-const TeamMembers = ({ name, image, description }) => {
+const TeamMembers = () => {
     const teamMembers = [
         {
           name: 'Prashant Khatiwada',
-          image: 'Prashant.JPG',
-          description: 'The place is close to Barceloneta Beach...'
+          image: 'Prashant.JPG'
         },
         {
           name: 'Anish Pandey',
-          image: 'Anish.jpg',
-          description: 'Another description'
+          image: 'Anish.jpg'
         },
         {
           name: 'Dikshya Giri',
-          image: 'Dikshya.png',
-          description: 'Yet another description'
+          image: 'Dikshya.jpg'
         }
       ];
   return (

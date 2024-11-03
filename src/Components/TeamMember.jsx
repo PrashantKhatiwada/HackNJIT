@@ -7,7 +7,7 @@ import {
     Button,
   } from "@material-tailwind/react";
    
-  const TeamMember = ({ name, image, description }) => {
+  const TeamMember = ({ name, image }) => {
    return (
      <Card className="mt-5 w-80 flex flex-column gap-1 border-0 p-10 shadow-md shadow-black rounded-lg hover:scale-105">
        <CardHeader color="blue-gray" className="relative h-56">
@@ -17,11 +17,8 @@ import {
          <Typography variant="h5" color="blue-gray" className="mb-2">
            {name}
          </Typography>
-         <Typography>{description}</Typography>
        </CardBody>
        <CardFooter className="pt-0 mx-3">
-         <Button>Read   
-  More</Button>
        </CardFooter>
      </Card>   
  

@@ -17,7 +17,7 @@ const ProjectSection = () => {
           Download our app to turn work into play! With just a few taps, bring the power of remote productivity to your fingertips and make every task an engaging game. Join us and make every move count!
           </p>
           <a
-            href="#" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" download="member1.JPG">
+            href="#" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" download="applefallinggame.exe">
             Download Now
           </a>
         </div>
