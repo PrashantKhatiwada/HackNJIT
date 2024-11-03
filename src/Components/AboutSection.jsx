@@ -14,7 +14,7 @@ const AboutSection = () => {
           </p>
         </div>
         <div className="md:w-1/2 md:ml-8">
-          <img src="/test.png" alt="App Image" className="w-200 h-200 image " />
+          <img src="/about.jpg" alt="App Image" className="w-200 h-200 image " />
         </div>
       </div>
     </section>

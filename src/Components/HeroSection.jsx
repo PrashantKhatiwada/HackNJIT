@@ -1,6 +1,8 @@
 // LandingPage.js
 import React from 'react';
 import '../styles/HeroSection.css'
+import MovieClip from './embed';
+
 
 const HeroSection = () => {
     return (
@@ -16,11 +18,7 @@ const HeroSection = () => {
           </button>
         </div>
         <div className="md:w-7/10">
-          {/* <img
-            src=""
-            alt="Image"
-            className="w-full md:w-full mx-auto mt-8"
-          /> */}
+          <MovieClip />
         </div>
       </section>
     );

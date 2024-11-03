@@ -9,7 +9,7 @@ const ProjectSection = () => {
     >
       <div className="container px-4 flex flex-col md:flex-row items-center gap-6" id="download-now">
       <div className="md:w-1/2 md:ml-8">
-          <img src="/test.png" alt="App Image" className="w-200 h-200 image" />
+          <img src="/image.png" alt="App Image" className="w-200 h-200 image" />
         </div>
         <div className="md:w-1/2">
           <h2 className="text-3xl font-bold mb-4">Download Our App</h2>
