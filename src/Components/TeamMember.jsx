@@ -9,7 +9,7 @@ import {
    
   const TeamMember = ({ name, image }) => {
    return (
-     <Card className="mt-5 w-80 flex flex-column gap-1 border-0 p-10 shadow-md shadow-black rounded-lg hover:scale-105">
+     <Card className="mt-5 w-80 flex flex-column gap-1 border-0 p-10 shadow-md shadow-black rounded-lg hover:scale-105 items-center">
        <CardHeader color="blue-gray" className="relative h-56">
          <img className="w-40 h-41" src={image} alt="card-image" />
        </CardHeader>
